@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def invokingGlobalLibrary(String branch) {
-    return isDevelopBranch(branch)
+def call(String branch) {
+    return "develop".equals(branch)
 }
