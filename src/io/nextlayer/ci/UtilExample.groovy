@@ -8,7 +8,7 @@ class UtilExample implements Serializable {
 
     }
 
-    Static def doSomething(steps, branch) {
+    static String doSomething(steps, branch) {
         return "*************************************  Doing Something: " + steps.isDevelopBranch(branch)
     }
 }
