@@ -1,9 +1,14 @@
 #!/usr/bin/env groovy
 package io.nextlayer.ci
 
-class UtilExample {
+class UtilExample implements Serializable {
+    private steps
 
-    String doSomething() {
-        return "Something done"
+    UtilExample() {
+
+    }
+
+    Static String doSomething(steps, branch) {
+        return "*************************************  Doing Something: " + steps.isDevelopBranch(branch)
     }
 }
