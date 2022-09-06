@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-package io.nextlayer.ci
+package io.nextlayer.cis
 
 class UtilExample implements Serializable {
     private steps
