@@ -9,6 +9,6 @@ class UtilExample implements Serializable {
     }
 
     static String doSomething(steps, branch) {
-        return "*************************************  Doing Something: " + steps.isDevelopBranch().esDesarrollo(branch)
+        return "*************************************  Doing Something: " + steps.isDevelopBranch.esDesarrollo(branch)
     }
 }
